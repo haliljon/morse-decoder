@@ -1,6 +1,4 @@
-# morse-decoder
-
-# Hospital Database
+# Morse-decoder
 
 # 📗 Table of Contents
 
