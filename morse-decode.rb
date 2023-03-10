@@ -1,4 +1,4 @@
-$morse_code = {
+MORSE_CODE = {
   '.-' => 'A',
   '-...' => 'B',
   '-.-.' => 'C',
@@ -38,7 +38,7 @@ $morse_code = {
 }
 
 def decode_char(morse)
-  $morse_code[morse]
+  MORSE_CODE[morse]
 end
 
 def decode_word(morse_word)
