@@ -41,3 +41,10 @@ def decode_char(morse)
   $morse_code[morse]
 end
 
+def decode_word(morse_word)
+  morse_word.split(' ').map { |morse| decode_char(morse) }.join
+end
+
+def decode(message)
+  message.split('  ').map { |morse_word| decode_word(morse_word) }.join(' ')
+end
